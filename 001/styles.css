@@ -1,0 +1,35 @@
+body {
+	color: rgb(128,0,128);
+	font-family: Arial;
+	text-align: center;
+}
+input {
+	font-size: 1em;
+	padding: .5em;
+}
+button {
+	background-color: rgb(126,0,126);
+	color: rgb(255,255,255);
+	padding: 1em;
+	width: 120px;
+}
+button:hover {
+	background-color: rgb(69,0,69);
+}
+select, textarea {
+	border: 1px solid rgb(128,0,128);
+	padding: 20px;
+}
+div {
+	margin: 2em 0;
+}
+button, input, select, textarea {
+	border: 1px solid rgb(128,0,128);
+}
+input, select, textarea {
+	background-color: rgb(255,246,255);
+}
+select, textarea, #email, #name, #number {
+	color: rgb(128,0,128);
+	width: 200px;
+}
