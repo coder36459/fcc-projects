@@ -14,15 +14,15 @@
 		</header>
 		<main>
 			<form id="survey-form">
-				<div>
+				<div class="in">
 					<label for="name" id="name-label">Name:</label>
 					<input id="name" type="text" placeholder="Name" required>
 				</div>
-				<div>
+				<div class="in">
 					<label for="email" id="email-label">E-mail:</label>
 					<input id="email" type="email" placeholder="E-mail" required>
 				</div>
-				<div>
+				<div class="in">
 					<label for="number" id="number-label">Number:</label>
 					<input id="number" type="number" min="9" max="18" placeholder="123456789" required>
 				</div>
@@ -30,22 +30,26 @@
 					<option>First element</option>
 					<option>Second element</option>
 				</select>
-				<div>
-					<input type="radio" name="name" value="first radio">
+				<div class="m">
+					<input type="radio" name="radio" value="first radio">
 					<label>First radio</label>
-					<input type="radio" name="name" value="second radio">
+					<input type="radio" name="radio" value="second radio">
 					<label>Second radio</label>
 				</div>
-				<div>
-					<input type="checkbox" name="name" value="first checkbox">
-					<label>First checkbox</label>
-					<input type="checkbox" name="name" value="second checkbox">
-					<label>Second checkbox</label>
+				<div class="m">
+					<div>
+						<input type="checkbox" name="check" value="first checkbox">
+						<label>First checkbox</label>
+					</div>
+					<div>
+						<input type="checkbox" name="check" value="second checkbox">
+						<label>Second checkbox</label>
+					</div>
 				</div>
-				<div>
+				<div class="t">
 					<textarea>Textarea</textarea>
 				</div>
-				<div>
+				<div class="b">
 					<button id="submit" type="submit">Submit</button>
 				</div>
 			</form>
