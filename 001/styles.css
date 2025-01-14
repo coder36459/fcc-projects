@@ -3,33 +3,93 @@ body {
 	font-family: Arial;
 	text-align: center;
 }
+header {
+	margin-bottom: 2em;
+}
+footer {
+	margin: 2em 0 3em;
+}
 input {
 	font-size: 1em;
-	padding: .5em;
+	padding: 10px;
 }
 button {
 	background-color: rgb(126,0,126);
+	border-radius: 20px;
 	color: rgb(255,255,255);
-	padding: 1em;
+	padding: 8px 0;
 	width: 120px;
 }
 button:hover {
 	background-color: rgb(69,0,69);
 }
-select, textarea {
-	border: 1px solid rgb(128,0,128);
-	padding: 20px;
+select,
+textarea {
+	padding: 10px;
+	margin: 1.5em 0;
 }
-div {
+textarea {
+	min-height: 100px;
+}
+.t, .b {
 	margin: 2em 0;
 }
-button, input, select, textarea {
-	border: 1px solid rgb(128,0,128);
-}
-input, select, textarea {
+input,
+select,
+textarea {
 	background-color: rgb(255,246,255);
 }
-select, textarea, #email, #name, #number {
+select,
+textarea,
+#name,
+#email,
+#number {
 	color: rgb(128,0,128);
-	width: 200px;
+	width: 248px;
+}
+#name-label,
+#email-label,
+#number-label {
+	padding: 5px;
+	width: 150px;
+}
+#name,
+#email,
+#number {
+	margin-bottom: 1.5em;
+}
+.in {
+	width: 270px;
+	margin: auto;
+}
+.m {
+	width: 280px;
+	margin: 2em auto;
+}
+.m label{
+	margin-right: 20px;
+
+}
+.m div {
+	margin-top: .5em;
+}
+button,
+input,
+select,
+textarea {
+	border: 1px solid rgb(128,0,128);
+}
+#name-label,
+#email-label,
+#number-label,
+#name,
+#email,
+#number {
+	display: block;
+}
+#name-label,
+#email-label,
+#number-label,
+.m {
+	text-align: left;
 }
