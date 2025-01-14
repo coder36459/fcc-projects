@@ -1,0 +1,33 @@
+body {
+	color: rgb(128,0,128);
+	font-family: Arial;
+	text-align: center;
+}
+header {
+	margin-bottom: 2em;
+}
+footer {
+	margin: 2em 0 3em;
+}
+#image {
+	display: block;
+	height: auto;
+	margin: auto;
+	max-width: 100%;
+}
+a {
+	color: rgb(69,0,69);
+	text-decoration: none;
+}
+#i {
+	background-color: rgb(255,226,255);
+	font-size: 2em;
+	min-height: 200px;
+	margin: auto;
+	margin-bottom: .4em;
+	max-width: 500px;
+	padding-top: 150px;
+}
+#tribute-info {
+	margin-top: 1em;
+}
