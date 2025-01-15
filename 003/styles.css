@@ -1,0 +1,130 @@
+body {
+	color: rgb(128,0,128);
+	font-family: Arial;
+}
+header {
+	margin-bottom: 2em;
+}
+header #title, header p, footer {
+	text-align: center;
+}
+footer {
+	margin: 2em 0 3em;
+}
+a {
+	color: rgb(69,0,69);
+	text-decoration: none;
+}
+#main-doc {
+	margin: auto;
+	width: 500px;
+}
+#main-doc header, #main-doc h3 {
+	margin: 0;
+}
+.main-section {
+	margin-bottom: 3em;
+	padding-bottom: 2em;
+	background-color: rgb(255,246,255);
+}
+.main-section header {
+	background-color: rgb(69,0,69);
+	color: rgb(255,255,255);
+	padding: .4em 1em;
+}
+.main-section p {
+	padding: 1em 1.2em ;
+	margin: 1em;
+	min-height: 200px;
+	background-color: rgba(255,226,255,0.5);
+}
+.main-section code {
+	display: block;
+	width: 300px;
+	margin: 1em auto;
+	padding: 1em 1.2em;
+	min-height: 100px;
+	background-color: rgb(255,226,255);
+}
+.main-section ul {
+	margin-left: 50px;
+}
+.main-section li {
+	background-color: rgb(255,226,255);
+	margin-bottom: 1em;
+	padding: .5em;
+	max-width: 300px;
+}
+#navbar {
+	background-color: rgb(255,226,255);
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: auto;
+}
+#navbar header, #navbar h3 {
+	margin: 0;
+	padding: 4px 0 0 5px;
+}
+#navbar ul {
+	padding: 0 0 0 10px;
+}
+#navbar li {
+	background-color: rgb(255,246,255);
+	list-style-type: none;
+	margin-bottom: 10px;
+}
+#navbar li > a {
+	display: block;
+	padding: 8px;
+}
+#navbar li > a:hover {
+	background-color: rgb(69,0,69);
+	color: rgb(255,255,255);
+}
+#top {
+	display: none;
+}
+@media screen and (max-width: 1050px) {
+	header #title {
+		margin-top: 80px;
+	}
+	#main-doc {
+		width: auto;
+	}
+	#navbar {
+		position: absolute;
+		width: 100%;
+	}
+	#navbar header {
+		display: none;
+	}
+	#navbar ul {
+		display: flex;
+		justify-content: center;
+		padding: 0;
+		margin: 0;
+	}
+	#navbar li {
+		margin: 0;
+		text-align: center;
+	}
+	#navbar a {
+		display: block;
+}
+	#top {
+		background-color: rgb(69,0,69);
+		border-radius: 10px;
+		display: block;
+		margin-bottom: 7px;
+		margin-right: 15px;
+		position: fixed;
+		bottom: 0;
+		right: 0;
+	}
+	#top a {
+		color: rgb(255,255,255);
+		display: block;
+		padding: 10px;
+	}
+}
