@@ -1,0 +1,100 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	color: rgb(128,0,128);
+	font-family: Arial;
+}
+#title {
+	font-size: 2em;
+	font-weight: bold;
+}
+#description {
+	margin-top: 10px;
+}
+header #title, header p, footer {
+	text-align: center;
+}
+footer {
+	margin: 2em 0 3em;
+}
+a {
+	color: rgb(69,0,69);
+	font-weight: bold;
+	text-decoration: none;
+}
+h1 {
+	font-size: 1.2em;
+}
+main {
+	max-width: 500px;
+	margin: auto;
+}
+#Top {
+	padding-top: 50px;
+}
+#welcome-section, #projects {
+	padding-top: 40px;
+}
+#Welcome h1, #projects h3 {
+	padding-top: 1em;
+	padding-left: 1em;
+	padding-bottom: 2em;
+}
+#Welcome, #projects h3, #pr, .project-tile {
+	background-color: rgb(255,226,255);
+}
+#pr {
+	padding-bottom: 5em;
+}
+#down {
+	margin-top: -150px;
+	font-size: 30em;
+	text-align: center;
+}
+#pr {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.project-tile {
+	text-align: center;
+	width: 100px;
+	margin: 10px;
+}
+.project-tile a {
+	background-color: rgb(255,246,255);
+	border-radius: 30px;
+	display: block;
+	padding: 50px 0;
+}
+.project-tile a:hover {
+	background-color: rgb(255,206,255);
+}
+#navbar {
+	background-color: rgb(255,246,255);
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	position: fixed;
+	top: 0;
+	width: 500px;
+}
+#navbar a {
+	display: block;
+	padding: 10px 30px;
+	margin: 0 10px;
+}
+#navbar a:hover {
+	background-color: rgb(69,0,69);
+	color: rgb(255,255,255);
+}
+@media screen and (max-width: 600px) {
+	#navbar {
+		width: 100%;
+	}
+	#navbar a {
+		padding: 10px 15px;
+	}
+}
