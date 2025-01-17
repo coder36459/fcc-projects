@@ -1,0 +1,66 @@
+body {
+	color: rgb(128,0,128);
+	font-family: Arial;
+	text-align: center;
+}
+#description {
+	margin-top: 10px;
+}
+footer {
+	margin: 2em 1em 3em;
+}
+a {
+	color: rgb(69,0,69);
+	font-weight: bold;
+	text-decoration: none;
+}
+main {
+	max-width: 500px;
+	margin: auto;
+}
+h3 {
+	margin-top: 2em;
+}
+#text, #btn {
+	margin: 2em 0;
+}
+#output {
+	width: 300px;
+}
+#num {
+	display: none;
+	width: 100px;
+}
+input, button, #output, #num {
+	border-radius: 20px;
+}
+input {
+	border: 2px solid rgb(128,0,128);
+	color: rgb(69,0,69);
+	font-size: 1em;
+	min-width: 100px;
+	padding: .8em;
+	text-align: center;
+}
+button {
+	background-color: rgb(128,0,128);
+	border: 0;
+	color: #fff;
+	min-width: 120px;
+	padding: .5em 2em;
+}
+button:hover {
+	background-color: rgb(69,0,69);
+}
+#result {
+	display: flex;
+	justify-content: center;
+}
+#output, #num {
+	background-color: rgb(255,226,255);
+	margin: 2em;
+	padding: 2em 1.5em;
+}
+.nbsp {
+	white-space: nowrap;
+}
