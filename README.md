@@ -11,3 +11,5 @@ Below you can find simple projects which I have done to improve and practice my 
 ### JavaScript Algorithms and Data Structures
 6. Build a Palindrome Checker
 7. Build a Roman Numeral Converter
+8. Build a Telephone Number Validator
+9. Build a Cash Register
