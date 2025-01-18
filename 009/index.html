@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="For this project, I have build a cash register web app that will return change to the customer based on the price of the item, the amount of cash provided by the customer, and the amount of cash in the cash drawer.">
+		<title>Project #9 - Build a Cash Register</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<header>
+			<h1 id="title">Project #9 - Build a Cash Register</h1>
+			<p id="description">This is one of the projects required to earn certification.</p>
+		</header>
+		<main>
+			<section>
+				<header>
+					<h3>Enter the amount of cash.</h3>
+				</header>
+				<div id="data">
+					<div class="in">
+						<label>Cash [$]:</label>
+						<input id="cash" type="text">
+					</div>
+					<div class="in">
+						<label>Price [$]:</label>
+						<input id="price" type="text">
+					</div>
+				</div>
+				<div id="btn">
+					<button id="purchase-btn">Purchase</button>
+				</div>
+				<div id="change-due"></div>
+				<div id="cid"></div>
+			</section>
+		</main>
+		<footer>
+			<strong>Currency Unit:</strong>
+			<span>Penny [$0.01 (PENNY)]</span>,
+			<span>Nickel [$0.05 (NICKEL)]</span>,
+			<span>Dime [$0.1 (DIME)]</span>,
+			<span>Quarter [$0.25 (QUARTER)]</span>,
+			<span>Dollar [$1 (ONE)]</span>,
+			<span>Five Dollars [$5 (FIVE)]</span>,
+			<span>Ten Dollars [$10 (TEN)]</span>,
+			<span>Twenty Dollars [$20 (TWENTY)]</span>,
+			<span>One Hundred Dollars [$100 (ONE HUNDRED)]</span>.
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>
