@@ -1,0 +1,73 @@
+body {
+	color: rgb(128,0,128);
+	font-family: Arial;
+	text-align: center;
+}
+#description {
+	margin-top: 10px;
+}
+footer {
+	line-height: 1.8em;
+	margin: 2em 1em 3em;
+}
+a {
+	color: rgb(69,0,69);
+	font-weight: bold;
+	text-decoration: none;
+}
+main {
+	margin: auto;
+	max-width: 500px;
+}
+h3 {
+	margin-top: 2em;
+}
+#data, #btn {
+	margin: 2em 0;
+}
+input, button, #change-due, #cid {
+	border-radius: 20px;
+}
+input {
+	border: 2px solid rgb(128,0,128);
+	color: rgb(69,0,69);
+	font-size: 1em;
+	min-width: 100px;
+	padding: .8em;
+	text-align: center;
+}
+button {
+	background-color: rgb(128,0,128);
+	border: 0;
+	color: #fff;
+	margin: 0 2em;
+	min-width: 120px;
+	padding: .5em 2em;
+}
+button:hover {
+	background-color: rgb(69,0,69);
+}
+#btn {
+	display: flex;
+	justify-content: center;
+}
+#change-due {
+	background-color: rgb(255,226,255);
+	margin: 2em;
+	min-height: 60px;
+	padding: 2em 1.5em;
+}
+#cid {
+	background-color: rgb(255,226,255);
+	margin: 2em;
+	padding: 2em 1.5em;
+}
+.in {
+	margin-bottom: 1.5em;
+}
+.in label {
+	font-weight: bold;
+}
+footer span {
+	white-space: nowrap;
+}
