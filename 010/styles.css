@@ -1,0 +1,87 @@
+body {
+	color: rgb(128,0,128);
+	font-family: Arial;
+	text-align: center;
+}
+#description {
+	margin-top: 10px;
+}
+footer {
+	line-height: 1.8em;
+	margin: 2em 1em 3em;
+}
+a {
+	color: rgb(69,0,69);
+	font-weight: bold;
+	text-decoration: none;
+}
+main {
+	margin: auto;
+	max-width: 500px;
+}
+h3 {
+	margin-top: 2em;
+}
+#search, #btn {
+	margin: 2em 0;
+}
+input, button {
+	border-radius: 20px;
+}
+input {
+	border: 2px solid rgb(128,0,128);
+	color: rgb(69,0,69);
+	font-size: 1em;
+	min-width: 100px;
+	padding: .8em;
+	text-align: center;
+}
+button {
+	background-color: rgb(128,0,128);
+	border: 0;
+	color: #fff;
+	margin: 0 2em;
+	min-width: 120px;
+	padding: .5em 2em;
+}
+button:hover {
+	background-color: rgb(69,0,69);
+}
+#tab {
+	display: flex;
+	justify-content: center;
+}
+.flex-container {
+	display: flex;
+	flex-direction: row;
+}
+.flex-container > div {
+	border-bottom: 1px solid rgb(69,0,69);
+	margin-top: 1em;
+	min-width: 180px;
+	padding: 0 0 3px;
+	text-align: left;
+	text-transform: capitalize;
+}
+.column {
+	display: flex;
+	flex-direction: column;
+	min-width: 180px;
+}
+#pokemon-name,
+#pokemon-id,
+#weight,
+#height,
+#types,
+#hp,
+#attack,
+#defense,
+#special-attack,
+#special-defense,
+#speed {
+	text-align: right;
+}
+#types > p {
+	margin: 0;
+	padding: 0;
+}
