@@ -8,8 +8,9 @@ Below you can find simple projects which I have done to improve and practice my 
 4. Build a Product Landing Page
 5. Build a Personal Portfolio Webpage
 
-### JavaScript Algorithms and Data Structures
+### [JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/certification/fcc01a5d92a-8836-4fc0-bc6f-2bfa568313f6/javascript-algorithms-and-data-structures-v8)
 6. Build a Palindrome Checker
 7. Build a Roman Numeral Converter
 8. Build a Telephone Number Validator
 9. Build a Cash Register
+10. Build a Pokémon Search App
