@@ -14,3 +14,6 @@ Below you can find simple projects which I have done to improve and practice my 
 8. Build a Telephone Number Validator
 9. Build a Cash Register
 10. Build a Pokémon Search App
+
+### Front End Development Libraries
+11. Build a Random Quote Machine
