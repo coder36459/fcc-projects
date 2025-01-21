@@ -1,0 +1,56 @@
+body {
+	color: rgb(128,0,128);
+	font-family: Arial;
+	text-align: center;
+}
+#description {
+	margin-top: 10px;
+}
+footer {
+	line-height: 1.8em;
+	margin: 2em 1em 3em;
+}
+a {
+	color: rgb(69,0,69);
+	font-weight: bold;
+	text-decoration: none;
+}
+main {
+	margin: auto;
+	max-width: 500px;
+}
+h3 {
+	margin-top: 2em;
+}
+#btn {
+	margin: 2em 0;
+}
+#quote-box {
+	margin: auto;
+	max-width: 450px;
+}
+button, #text, #author {
+	border-radius: 20px;
+}
+button {
+	background-color: rgb(128,0,128);
+	border: 0;
+	color: #fff;
+	margin: 0 2em;
+	min-width: 120px;
+	padding: .5em 2em;
+}
+button:hover {
+	background-color: rgb(69,0,69);
+}
+#text {
+	background-color: rgb(255,226,255);
+	margin: 2em;
+	min-height: 60px;
+	padding: 2em 1.5em;
+}
+#author {
+	background-color: rgb(255,226,255);
+	margin: 2em;
+	padding: 2em 1.5em;
+}
