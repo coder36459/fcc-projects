@@ -1,0 +1,45 @@
+body {
+	color: rgb(128,0,128);
+	font-family: Arial;
+	text-align: center;
+}
+#description {
+	margin-top: 10px;
+}
+footer {
+	line-height: 1.8em;
+	margin: 2em 1em 3em;
+}
+a {
+	color: rgb(69,0,69);
+	font-weight: bold;
+	text-decoration: none;
+}
+main {
+	margin: auto;
+	max-width: 500px;
+}
+h3 {
+	margin-top: 2em;
+}
+#preview {
+	border-radius: 20px;
+}
+#editor {
+	background-color: rgb(255,226,255);
+	border: 0;
+	line-height: 25px;
+	margin: 2em;
+	padding: 2em 1.5em;
+	width: 330px;
+}
+#preview {
+	background-color: rgb(255,226,255);
+	line-height: 30px;
+	margin: 2em;
+	padding: 1em 1.5em 2em;
+}
+#editor, #preview{
+	min-height: 100px;
+	text-align: left;
+}
