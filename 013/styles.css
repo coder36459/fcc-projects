@@ -1,0 +1,48 @@
+#body {
+	color: rgb(128,0,128);
+	margin-top: 2em;
+	text-align: center;
+}
+#description {
+	margin-top: 10px;
+}
+#footer {
+	line-height: 1.8em;
+	margin: 2em 1em 3em;
+}
+a {
+	color: rgb(69,0,69)!important;
+	font-weight: bold;
+	text-decoration: none;
+}
+main {
+	margin: auto;
+	max-width: 400px;
+}
+#h3 {
+	font-size: 1.2em;
+	margin-top: 2em;
+}
+button, #display {
+	border-radius: 20px!important;
+}
+button {
+	background-color: rgb(128,0,128);
+	border: 0;
+	color: #fff;
+	margin: 0 2em;
+	min-width: 120px;
+	padding: .5em 2em;
+}
+button:hover {
+	background-color: rgb(69,0,69);
+}
+#display {
+	background-color: rgb(255,226,255);
+	margin: 2em;
+	min-height: 90px;
+	padding: 2em 1.5em;
+}
+.drum-pad {
+	margin: 5px;
+}
