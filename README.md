@@ -19,3 +19,4 @@ Below you can find simple projects which I have done to improve and practice my 
 11. Build a Random Quote Machine
 12. Build a Markdown Previewer
 13. Build a Drum Machine
+14. Build a JavaScript Calculator
