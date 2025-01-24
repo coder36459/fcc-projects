@@ -20,3 +20,4 @@ Below you can find simple projects which I have done to improve and practice my 
 12. Build a Markdown Previewer
 13. Build a Drum Machine
 14. Build a JavaScript Calculator
+15. Build a 25 + 5 Clock
